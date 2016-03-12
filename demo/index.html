@@ -1,0 +1,47 @@
+<!doctype html>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>wrap-panel Demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="../wrap-panel.html">
+      <style>
+          div {
+              margin: 5px;
+              padding: 10px;
+              border: 1px solid #ccc;
+          }
+      </style>
+  </head>
+  <body unresolved>
+
+    <p>An example of <code>&lt;wrap-panel&gt;</code>:</p>
+
+
+    <wrap-panel >
+        <div>El 1</div>
+        <div>El 2</div>
+        <div>El 3</div>
+        <div>El 4</div>
+        <div>El 5</div>
+        <div>El 6</div>
+        <div>El 7</div>
+    </wrap-panel>
+
+    <script>
+      var seedElement = document.querySelector('wrap-panel');
+
+    </script>
+
+  </body>
+</html>
